@@ -1,7 +1,9 @@
 server:
   port: 8881
 #  context-path: /accounts
-
+management: 
+   security: 
+      enabled: false
 spring:
   rabbitmq:
     host: localhost
